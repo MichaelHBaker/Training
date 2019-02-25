@@ -1,5 +1,4 @@
 # This file deals with boolean operations
-# A second line
 import numpy as np
 my_house = np.array([18.0, 20.0, 10.75, 9.50])
 your_house = np.array([14.0, 24.0, 14.25, 9.0])
@@ -8,7 +7,7 @@ print(np.logical_and(my_house <18, my_house >19))
 print(np.logical_and(my_house <18, your_house<14))
 # help('%')
 z = 4
-if z % 2 == 0 : # % yields the remainder of the division
+if z % 2 == 0 : # % yields the remainder of the 
  print('Number is even') # must be indentation in order to run
 elif z % 2 == 0 :
  print('Number is odd')
