@@ -7,7 +7,7 @@ print(np.logical_and(my_house <18, my_house >19))
 print(np.logical_and(my_house <18, your_house<14))
 # help('%')
 z = 4
-if z % 2 == 0 : # % yields the remainder of the 
+if z % 2 == 0 : # % yields the remainder of the division
  print('Number is even') # must be indentation in order to run
 elif z % 2 == 0 :
  print('Number is odd')
